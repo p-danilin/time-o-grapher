@@ -1,0 +1,35 @@
+1:
+  path: sample1.wav
+  expected_beat_rate: 21600
+  expected_rate: 0
+  expected_beat_error: 0.6
+  expected_amplitude: 288
+  tick_range: [0.015, 0.035]
+  noise_range: [0.06, 0.1]
+
+2:
+  path: sample2.wav
+  expected_beat_rate: 18000
+  expected_rate: 79
+  expected_beat_error: 0.8
+  expected_amplitude: 257
+  tick_range: [0.08, 0.15]
+  noise_range: [0.15, 0.27]
+
+3:
+  path: sample3.wav
+  expected_beat_rate: 28880
+  expected_rate: 61
+  expected_beat_error: 0.1
+  expected_amplitude: 204
+  tick_range: [0.07, 0.116]
+  noise_range: [0.13, 0.22]
+
+4:
+  path: sample4.wav
+  expected_beat_rate: 28880
+  expected_rate: 2
+  expected_beat_error: 0
+  expected_amplitude: 273
+  tick_range: [0.16, 0.19]
+  noise_range: [0.07, 0.14]
