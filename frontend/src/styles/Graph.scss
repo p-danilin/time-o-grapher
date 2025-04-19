@@ -1,0 +1,53 @@
+.stats-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.stats-bar-top,
+.stats-bar-bottom {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  background: white;
+  color: #0047ab;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.stats-bar-top,
+.stats-bar-bottom div {
+  overflow: hidden;
+}
+
+.stats-bar-top {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.stats-bar-bottom {
+  border-radius: 0px 0px 5px 5px;
+}
+
+.graph-area {
+  height: 200px;
+  overflow: hidden;
+}
+
+.fake-dots {
+  white-space: nowrap;
+}
+
+.dotplot {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.dot {
+  position: absolute;
+  top: 50%;
+  width: 2px;
+  height: 2px;
+  background: white;
+}
